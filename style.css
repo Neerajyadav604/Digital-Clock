@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url(image.png);
+    filter:blur(px);
+  }
+  
+  .container {
+    text-align: center; /* Center-align time and date */
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300vh;
+  }
+  
+  .h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    font-size: 70px;
+    color:white; /* Time color */
+  }
+  
+  #date {
+    margin-top: 10px; /* Add spacing below the time */
+    color:white; /* Date color */
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+
+    
+
+  }
+  .blur {
+    filter: blur(20px);
+    pointer-events: none; /* Prevent interaction during blur */
+  }
+  
+  /* Hidden class */
+  .hidden {
+    display: none;
+  }
